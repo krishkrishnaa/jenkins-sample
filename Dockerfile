@@ -1,4 +1,6 @@
-FROM krishkrishnaa/jarvis:5.1
+FROM ubuntu
+
+RUN apt-get -y install apache2
 
 RUN rm /var/www/html/index.html
 
