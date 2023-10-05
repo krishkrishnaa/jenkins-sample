@@ -1,6 +1,4 @@
-FROM ubuntu
-
-RUN apt-get -y install nginx
+FROM apache2:latest
 
 RUN rm /var/www/html/index.html
 
